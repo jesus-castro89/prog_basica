@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+
+    <rule id="3444dab5">
+        <description>Created after removal of "Ejemplo de Diagrama de Flujo" from Fundamentos de Programación
+        </description>
+        <accepts>flow-example.html</accepts>
+    </rule>
+    <rule id="5f1fead">
+        <description>Created after removal of "Variables Estáticas en C++" from Fundamentos de Programación
+        </description>
+        <accepts>static.html</accepts>
+    </rule>
+    <rule id="41deee06">
+        <description>Created after removal of "Decisión en C++" from Fundamentos de Programación</description>
+        <accepts>cpp-if.html</accepts>
+    </rule>
+    <rule id="2b302a8">
+        <description>Created after removal of "Los Identificadores en C++" from Fundamentos de Programación
+        </description>
+        <accepts>identificadores.html</accepts>
+    </rule>
+    <rule id="2f3c8461">
+        <description>Created after removal of "salidas" from Introducción a la Programación</description>
+        <accepts>salidas.html</accepts>
+    </rule>
+    <rule id="1621e1bf">
+        <description>Created after removal of "flow" from Introducción a la Programación</description>
+        <accepts>flow.html</accepts>
+    </rule>
+    <rule id="b50f107">
+        <description>Created after removal of "El ciclo Para" from Introducción a la Programación</description>
+        <accepts>para.html</accepts>
+    </rule>
+</rules>

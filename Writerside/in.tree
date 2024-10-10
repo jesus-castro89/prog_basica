@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                  name="Fundamento de Programación"
+                  start-page="starter.md">
+
+    <toc-element topic="starter.md">
+        <toc-element topic="Solicitar-Licencia-para-Estudiantes.md"/>
+        <toc-element topic="Instalar-CLion.md"/>
+        <toc-element topic="Crear-un-Proyecto.md"/>
+    </toc-element>
+    <toc-element topic="Algoritmos.md">
+        <toc-element topic="que-es-algoritmo.md"/>
+        <toc-element topic="clasificacion.md"/>
+    </toc-element>
+    <toc-element topic="Pseudocodigo.md">
+        <toc-element topic="que-es-pseudocodigo.md"/>
+        <toc-element topic="caracteristicas-pseudocodigo.md"/>
+        <toc-element topic="ventajas-desventajas-pseudocodigo.md"/>
+        <toc-element topic="componentes-pseudocodigo.md"/>
+        <toc-element topic="reglas-pseudocodigo.md"/>
+    </toc-element>
+    <toc-element topic="diagramas-flujo.md">
+        <toc-element topic="que-es-diagrama.md"/>
+        <toc-element topic="importancia-diagramas.md"/>
+        <toc-element topic="elementos-diagrama.md"/>
+        <toc-element topic="subprocesos.md"/>
+    </toc-element>
+    <toc-element topic="estructura.md">
+        <toc-element topic="algoritmo-ejemplo.md"/>
+        <toc-element topic="lineal.md"/>
+        <toc-element topic="repetitivas.md"/>
+        <toc-element topic="switch.md"/>
+        <toc-element topic="subprocesos-pseudo.md"/>
+    </toc-element>
+    <toc-element topic="lenguajes-programacion.md">
+        <toc-element topic="cpp.md">
+            <toc-element topic="input-output.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element topic="C.md">
+        <toc-element topic="struct-union.md"/>
+        <toc-element topic="enums.md"/>
+        <toc-element topic="comments.md"/>
+        <toc-element topic="pointer.md"/>
+        <toc-element topic="function.md"/>
+        <toc-element topic="flowcontrol.md">
+            <toc-element topic="if-sentence.md"/>
+            <toc-element topic="ternary.md"/>
+            <toc-element topic="operation-evaluation.md"/>
+            <toc-element topic="while.md"/>
+            <toc-element topic="for.md"/>
+            <toc-element topic="switch-case.md"/>
+        </toc-element>
+        <toc-element topic="document.md"/>
+        <toc-element topic="math-algorithm.md"/>
+        <toc-element topic="string-random.md"/>
+        <toc-element topic="salidas.md"/>
+        <toc-element topic="operadores.md">
+            <toc-element topic="presedencia.md"/>
+        </toc-element>
+        <toc-element topic="constantes.md"/>
+        <toc-element topic="variables.md">
+            <toc-element topic="reglas-variables.md"/>
+            <toc-element topic="alcance-variable.md"/>
+        </toc-element>
+        <toc-element topic="snake-case.md"/>
+        <toc-element topic="tipos-datos.md"/>
+        <toc-element topic="pseudo-c.md"/>
+    </toc-element>
+    <toc-element topic="proyecto.md">
+        <toc-element topic="repo.md"/>
+        <toc-element topic="pseudo-proy.md"/>
+        <toc-element topic="diagram.md"/>
+        <toc-element topic="code.md"/>
+        <toc-element topic="random-card.md"/>
+        <toc-element topic="card-deck.md"/>
+    </toc-element>
+</instance-profile>
