@@ -33,4 +33,8 @@
         <description>Created after removal of "El ciclo Para" from Introducción a la Programación</description>
         <accepts>para.html</accepts>
     </rule>
+    <rule id="655ade82">
+        <description>Created after removal of "C++" from Fundamento de Programación</description>
+        <accepts>C.html</accepts>
+    </rule>
 </rules>
