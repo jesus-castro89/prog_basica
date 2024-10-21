@@ -36,21 +36,45 @@ enum class Color {
 
 En este caso, `Red` tiene el valor 1, `Green` tiene el valor 2 y `Blue` tiene el valor 4.
 
-## Atributos de un Enum Class
+## Uso de Enum Classes
 
-Un Enum Class puede tener atributos, como cualquier otra clase en C++. Por ejemplo, se pueden añadir métodos y
-constructores a un Enum Class:
+Los Enum Classes son útiles para representar un conjunto de valores que no cambian a lo largo de la ejecución de un
+programa. Por ejemplo, se pueden utilizar para representar los días de la semana:
 
 ```c++
-enum class Color {
-    Red = 1,
-    Green = 2,
-    Blue = 4
-
-    Color(int value) : value(value) {}
-    int getValue() { return value; }
-
-private:
-    int value;
+enum class Day {
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday,
+    Sunday
 };
+
+Day day = Day::Monday;
 ```
+
+En este caso, `day` es una variable de tipo `Day` que contiene la constante `Monday`.
+
+Los Enum Classes también se pueden utilizar en instrucciones `switch`:
+
+```c++
+switch (day) {
+    case Day::Monday:
+        std::cout << "Today is Monday" << std::endl;
+        break;
+    case Day::Tuesday:
+        std::cout << "Today is Tuesday" << std::endl;
+        break;
+    // ...
+}
+```
+
+En este caso, se imprime un mensaje dependiendo del valor de la variable `day`.
+
+## Conclusión
+
+Los Enum Classes son una forma de definir un conjunto de constantes en C++. Son útiles para representar valores que no
+cambian a lo largo de la ejecución de un programa y se pueden utilizar en instrucciones `switch` para tomar decisiones
+basadas en el valor de una variable.

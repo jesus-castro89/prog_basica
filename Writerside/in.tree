@@ -70,6 +70,7 @@
         <toc-element topic="enum-class.md"/>
     </toc-element>
     <toc-element topic="struct-union.md"/>
+    <toc-element topic="vector.md"/>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
         <toc-element topic="pseudo-proy.md"/>
@@ -77,5 +78,6 @@
         <toc-element topic="code.md"/>
         <toc-element topic="random-card.md"/>
         <toc-element topic="card-deck.md"/>
+        <toc-element topic="project-structure.md"/>
     </toc-element>
 </instance-profile>
