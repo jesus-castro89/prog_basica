@@ -3,7 +3,7 @@
 Un Enum Class es una clase que contiene un conjunto de constantes. En C++ se puede definir un Enum Class de la siguiente
 manera:
 
-```cpp
+```c++
 enum class Color {
     Red,
     Green,
@@ -14,7 +14,7 @@ enum class Color {
 En este caso, `Color` es el nombre del Enum Class y `Red`, `Green` y `Blue` son las constantes que contiene. Para
 acceder a las constantes de un Enum Class se utiliza el operador de resolución de ámbito `::`:
 
-```cpp
+```c++
 Color color = Color::Red;
 ```
 
