@@ -10,6 +10,7 @@ Para nuestro proyecto manejaremos las siguientes estructuras:
     * Card: Representa una carta de una baraja de cartas.
     * Player: Representa un jugador de la partida.
     * Deck: Representa una baraja de cartas.
+    * BlackJack: Representa el juego de BlackJack.
 
 ## Enums
 
@@ -35,7 +36,7 @@ El Enum `Suit` representa los palos de una baraja de cartas. Puede tener los sig
 El Enum `Figure` representa las figuras de una baraja de cartas. Puede tener los siguientes valores:
 
 * `N`: Dónde N es el número de carta en Inglés.
-  * Por ejemplo: `TWO`, `THREE`, hasta llegar a `TEN`.
+    * Por ejemplo: `TWO`, `THREE`, hasta llegar a `TEN`.
 * `JACK`: Jota.
 * `QUEEN`: Reina.
 * `KING`: Rey.
@@ -87,3 +88,21 @@ Y los siguientes constructores:
 
 Con estas estructuras y métodos, podremos manejar de manera más eficiente las cartas, jugadores y barajas de cartas en
 nuestro proyecto.
+
+### BlackJack
+
+La estructura `BlackJack` representa el juego de BlackJack. Tiene los siguientes campos:
+
+* `deck`: Baraja de cartas.
+* `player`: Jugador.
+* `dealer`: Dealer.
+
+Esta estructura deberá de contar con los siguientes métodos:
+
+* `startGame()`: Inicia el juego.
+* `showTable()`: Muestra la mesa de juego. (La manos de los jugadores)
+* `showWinner()`: Muestra al ganador de la ronda.
+
+Y los siguientes constructores:
+
+* `BlackJack()`: Constructor por defecto que creará un nuevo juego de BlackJack.
