@@ -103,15 +103,17 @@ Por lo que la estructura `Card` se vería de la siguiente manera:
 ```c++
 struct Card {
     int value;
-    Suit suit;
+    Suite suite;
     Figure figure;
     bool isTaken;
 
-    std::string getCard();
-    std::string getSuite();
+    [[nodiscard]] string getCard() const;
+
+    [[nodiscard]] string getSuite() const;
 
     Card();
-    explicit Card(Figure figure, Suit suit);
+
+    explicit Card(Suite suite, Figure figure);
 };
 ```
 
@@ -136,16 +138,19 @@ Y los siguientes constructores:
 Por lo que la estructura `Player` se vería de la siguiente manera:
 
 ```c++
-struct Player {
-    int score;
-    std::vector<Card> cards;
-    std::string name;
+struct Card {
+    int value;
+    Suite suite;
+    Figure figure;
+    bool isTaken;
 
-    void addCard(Card card);
-    void showHand();
+    [[nodiscard]] string getCard() const;
 
-    Player();
-    explicit Player(std::string name);
+    [[nodiscard]] string getSuite() const;
+
+    Card();
+
+    explicit Card(Suite suite, Figure figure);
 };
 ```
 
@@ -171,12 +176,13 @@ Por lo que la estructura `Deck` se vería de la siguiente manera:
 
 ```c++
 struct Deck {
-    std::vector<Card> cards;
-
-    void shuffleDeck();
-    Card drawCard();
-
+    vector<Card> cards;
+    
     Deck();
+    
+    void shuffle();
+    
+    Card draw();
 };
 ```
 
@@ -202,14 +208,20 @@ Por lo que la estructura `BlackJack` se vería de la siguiente manera:
 
 ```c++
 struct BlackJack {
-    Deck deck;
     Player player;
     Player dealer;
+    Deck deck;
 
-    void startGame();
+    explicit BlackJack(string playerName);
+
     void showTable();
-    void showWinner();
 
-    BlackJack();
+    void playerTurn();
+
+    void dealerTurn();
+
+    [[nodiscard]] Winner getWinner() const;
+
+    void showWinner() const;
 };
 ```
