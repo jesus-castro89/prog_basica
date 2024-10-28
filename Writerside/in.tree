@@ -71,6 +71,7 @@
     </toc-element>
     <toc-element topic="struct-union.md"/>
     <toc-element topic="vector.md"/>
+    <toc-element topic="modules.md"/>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
         <toc-element topic="pseudo-proy.md"/>
