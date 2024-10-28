@@ -72,6 +72,7 @@
     <toc-element topic="struct-union.md"/>
     <toc-element topic="vector.md"/>
     <toc-element topic="modules.md"/>
+    <toc-element topic="function-method.md"/>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
         <toc-element topic="pseudo-proy.md"/>
@@ -80,5 +81,6 @@
         <toc-element topic="random-card.md"/>
         <toc-element topic="card-deck.md"/>
         <toc-element topic="project-structure.md"/>
+        <toc-element topic="modules-proy.md"/>
     </toc-element>
 </instance-profile>
