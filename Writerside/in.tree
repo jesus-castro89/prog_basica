@@ -74,6 +74,8 @@
     <toc-element topic="modules.md"/>
     <toc-element topic="function-method.md"/>
     <toc-element topic="explicit.md"/>
+    <toc-element topic="unique.md"/>
+    <toc-element topic="unique-null-ptr.md"/>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
         <toc-element topic="pseudo-proy.md"/>
@@ -90,5 +92,7 @@
             <toc-element topic="blackjack-h.md"/>
         </toc-element>
         <toc-element topic="main-test.md"/>
+        <toc-element topic="output.md"/>
+        <toc-element topic="pointers.md"/>
     </toc-element>
 </instance-profile>
