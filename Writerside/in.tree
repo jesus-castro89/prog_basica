@@ -77,6 +77,7 @@
     <toc-element topic="unique.md"/>
     <toc-element topic="unique-null-ptr.md"/>
     <toc-element topic="pointer-examples.md"/>
+    <toc-element topic="archivos.md"/>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
         <toc-element topic="pseudo-proy.md"/>
