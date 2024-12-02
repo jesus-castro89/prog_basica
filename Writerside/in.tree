@@ -96,5 +96,6 @@
         <toc-element topic="main-test.md"/>
         <toc-element topic="output.md"/>
         <toc-element topic="pointers.md"/>
+        <toc-element topic="files.md"/>
     </toc-element>
 </instance-profile>
